@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 1px;
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+#grandparent
+{
+	border: 3px solid black;
+	background: #ffffff;
+	width: auto;
+	position: relative;
+	padding: 2px;
+}
+#parents
+{
+	box-shadow: 0 0 70px #000;
+	background: #d3ffa7;
+	text-shadow: 0 0 30PX #ffffff;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+}
+#parent
+{
+	background: rgb(200,206,350,.6);
+	box-shadow: 0 0 20px  #000;
+	border-radius: 30px;
+	text-shadow: 0 0 30PX #ffffff;
+	text-align: center;
+	float: right;
+	width: 200px;
+	flex: 1 1 150px;
+	margin: 5px;
+}
+#parentscontent
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2px;
+	margin: 2px;
+}
+hr
+{
+	background-color: black;
+}
+#uncles
+{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2px;
+	margin: 2px;
+}
+#uncle
+{
+	background: transparent;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000; 
+	flex: 1 1 300px;
+	margin: 6px;
+}
+#aunts
+{
+	border: 3px ;
+	padding: 2px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#aunt
+{
+	background: rgb(220,276,210);
+	box-shadow: 0 0 40px #000;
+	border-radius: 60px;
+	text-align: center;
+	flex: 1 1 200px;
+	margin: 6px;
+	padding: 2px;
+}
+#exchanges
+{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2px;
+	margin: 2px;
+}
+#exchange
+{
+	background: transparent;
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 250px;
+	margin: 6px;
+}
+#shares
+{
+	border: 3px #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#share
+{
+    background: rgb(225,230,205);
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 200px;
+	margin: 6px;
+	padding: 5px;
+}
+table
+{
+	margin: 3px;
+	padding: 5px;
+	border: 3px #000;
+	background: rgb(315,302,302);
+	border-radius: 30px;
+}
+#brokers
+{
+	border: 3px #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#broker
+{
+	background: transparent;
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 200px;
+	margin: 6px;
+	padding: 5px;
+}
+#moneys
+{
+	border: 3px #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#money
+{
+	background: transparent;
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 250px;
+	margin: 6px;
+}
+#biggest
+{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2px;
+	margin: 2px;
+}
+#bigger
+{
+	background: transparent;
+	box-shadow: 0 0 25px  #000;
+	border-radius: 10px;
+	flex: 1 1 350px;
+	margin: 6px;
+}
+#bigger:hover
+{
+	transform:scale(1.0);
+	z-index: 10000;
+	background: rgb(0,0,128,.6);
+	opacity: 0.5;
+}
+#frauds
+{
+	border: 3px #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#fraud
+{
+    background: rgb(225,230,205);
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 200px;
+	margin: 6px;
+	padding: 5px;
+}
+#fraud:hover
+{
+	transform:scale(1.2);
+	z-index: 10000;
+	background: rgb(179,305,102,.6);
+	opacity: 0.5;
+}	
+#end
+{
+	background: rgb(179,305,102,.6);
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
